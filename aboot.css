@@ -1,0 +1,78 @@
+
+ {
+	margin: 0;
+	padding: 0;
+	box-sizing: ;
+}
+body{
+	
+}
+.about{
+	background: url(elite.jpg) no-repeat;
+	background-size: 55%;
+	background-color: #fdfdfd;
+	overflow: hidden;
+	padding: 100px;
+	left: 10px;
+}
+.inner-section{
+	width: 55%;
+	float: right;
+	background-color: #d39293;
+	padding: 100px;
+	box-shadow: 12px 12px 8px rgba(0, 0, 0, 1.0);
+}
+.inner-section h1{
+	margin-bottom: 30px;
+	font-size: 30px;
+	font-weight: 900;
+}
+.text{
+	font-size: 13px;
+	color: #545479;
+	line-height: 30px;
+	text-align: justify;
+	margin-bottom: 40px;
+
+}
+.skills .button{
+	font-size: 22px;
+	text-align: center;
+	letter-spacing: 3px;
+	border: none;
+	border-radius: 20px;
+	padding: 8px;
+	width: 200px;
+	background-color: cyan;
+	color: white;
+
+
+}
+.skills .button:hover{
+	transition: 5s;
+	background-color: #ecf5f5;
+	color: #009999c;
+
+
+}
+@y
+}
+
+}
+@media screen and(max-width: 600px){
+     .about{
+     	padding: 0%;
+     	right: 10px;
+
+     }
+     .inner-section{
+     	padding:60px;
+     }
+
+
+     .skills.button{
+     	font-size: 19px;
+     	padding: 5px;
+     	width: 160px;
+     }
+   
